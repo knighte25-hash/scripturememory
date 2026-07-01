@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f6b26b"/>
+      <stop offset="35%" stop-color="#d97a5a"/>
+      <stop offset="65%" stop-color="#7a4a6b"/>
+      <stop offset="100%" stop-color="#2c1f3d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1600" fill="url(#g)"/>
+  <circle cx="580" cy="340" r="90" fill="#fff2d6" opacity="0.85"/>
+  <g fill="#402a3a" opacity="0.9">
+    <path d="M0 900 Q150 820 300 900 T600 900 T800 880 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#2a1c2c">
+    <path d="M0 1020 Q200 940 400 1020 T800 1010 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#1c1220">
+    <path d="M0 1180 Q220 1110 440 1180 T800 1160 L800 1600 L0 1600 Z"/>
+  </g>
+  <!-- Goliath silhouette -->
+  <g fill="#150e18">
+    <rect x="470" y="760" width="26" height="140" rx="8"/>
+    <circle cx="483" cy="740" r="20"/>
+    <path d="M440 800 L440 900 L525 900 L525 800 Z"/>
+    <rect x="430" y="810" width="20" height="70" rx="8"/>
+    <rect x="516" y="800" width="20" height="90" rx="8"/>
+    <rect x="460" y="900" width="20" height="90" rx="8"/>
+    <rect x="490" y="900" width="20" height="90" rx="8"/>
+  </g>
+  <!-- David silhouette with sling -->
+  <g fill="#150e18">
+    <circle cx="300" cy="1010" r="13"/>
+    <path d="M288 1023 L288 1080 L312 1080 L312 1023 Z"/>
+    <rect x="280" y="1030" width="14" height="55" rx="6"/>
+    <rect x="306" y="1030" width="14" height="55" rx="6"/>
+    <rect x="290" y="1080" width="14" height="60" rx="6"/>
+    <rect x="306" y="1080" width="14" height="60" rx="6"/>
+    <path d="M320 1015 Q360 990 380 1030" stroke="#150e18" stroke-width="4" fill="none"/>
+  </g>
+</svg>

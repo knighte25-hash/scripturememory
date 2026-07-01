@@ -1,0 +1,30 @@
+<svg viewBox="0 0 800 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbe8c0"/>
+      <stop offset="30%" stop-color="#f4b06a"/>
+      <stop offset="60%" stop-color="#a9678a"/>
+      <stop offset="100%" stop-color="#2c2140"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1600" fill="url(#g)"/>
+  <circle cx="400" cy="420" r="130" fill="#fff6dd" opacity="0.85"/>
+  <g stroke="#fff2cf" stroke-width="3" opacity="0.4">
+    <line x1="400" y1="420" x2="400" y2="200"/>
+    <line x1="400" y1="420" x2="580" y2="280"/>
+    <line x1="400" y1="420" x2="220" y2="280"/>
+    <line x1="400" y1="420" x2="620" y2="440"/>
+    <line x1="400" y1="420" x2="180" y2="440"/>
+  </g>
+  <g fill="#241a2e" opacity="0.9">
+    <path d="M0 950 Q200 880 400 950 T800 930 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#180f21">
+    <path d="M0 1120 Q220 1050 440 1120 T800 1100 L800 1600 L0 1600 Z"/>
+  </g>
+  <!-- tomb entrance (dark arch) -->
+  <g>
+    <path d="M300 1600 L300 1300 Q300 1200 400 1200 Q500 1200 500 1300 L500 1600 Z" fill="#0b0712"/>
+    <circle cx="560" cy="1420" r="55" fill="#8a7a63"/>
+  </g>
+</svg>

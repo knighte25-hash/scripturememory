@@ -1,0 +1,39 @@
+<svg viewBox="0 0 800 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fbe3a3"/>
+      <stop offset="30%" stop-color="#f0b06a"/>
+      <stop offset="60%" stop-color="#6f8f5a"/>
+      <stop offset="100%" stop-color="#28381f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1600" fill="url(#g)"/>
+  <circle cx="620" cy="260" r="70" fill="#fff6dd" opacity="0.8"/>
+  <g fill="#3c4d2c" opacity="0.9">
+    <path d="M0 820 Q200 740 400 820 T800 800 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#2c3a20">
+    <path d="M0 980 Q220 900 440 980 T800 960 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#1c260f">
+    <path d="M0 1150 Q240 1080 480 1150 T800 1130 L800 1600 L0 1600 Z"/>
+  </g>
+  <!-- shepherd with staff -->
+  <g fill="#141c0c">
+    <circle cx="200" cy="1040" r="15"/>
+    <path d="M185 1058 L185 1130 L215 1130 L215 1058 Z"/>
+    <rect x="195" y="1130" width="12" height="60" rx="5"/>
+    <rect x="210" y="1130" width="12" height="60" rx="5"/>
+    <path d="M225 1020 L225 1150" stroke="#141c0c" stroke-width="5"/>
+    <path d="M225 1020 Q245 1005 240 1030" stroke="#141c0c" stroke-width="5" fill="none"/>
+  </g>
+  <!-- sheep -->
+  <g fill="#141c0c">
+    <ellipse cx="330" cy="1200" rx="34" ry="20"/>
+    <circle cx="360" cy="1195" r="12"/>
+    <ellipse cx="470" cy="1240" rx="30" ry="18"/>
+    <circle cx="497" cy="1236" r="11"/>
+    <ellipse cx="580" cy="1210" rx="28" ry="17"/>
+    <circle cx="605" cy="1206" r="10"/>
+  </g>
+</svg>

@@ -1,0 +1,93 @@
+<svg viewBox="0 0 800 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#232a4a"/>
+      <stop offset="30%" stop-color="#1b2140"/>
+      <stop offset="60%" stop-color="#141830"/>
+      <stop offset="100%" stop-color="#0a0c1c"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1600" fill="url(#g)"/>
+
+  <!-- moon -->
+  <circle cx="580" cy="230" r="70" fill="#eef1e6" opacity="0.9"/>
+  <circle cx="580" cy="230" r="105" fill="#c9d3c0" opacity="0.18"/>
+
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle cx="90" cy="120" r="1.8" opacity="0.7"/>
+    <circle cx="150" cy="260" r="1.4" opacity="0.5"/>
+    <circle cx="250" cy="80" r="1.6" opacity="0.6"/>
+    <circle cx="700" cy="150" r="1.6" opacity="0.6"/>
+    <circle cx="60" cy="340" r="1.4" opacity="0.5"/>
+    <circle cx="380" cy="60" r="1.4" opacity="0.5"/>
+    <circle cx="440" cy="180" r="1.2" opacity="0.4"/>
+    <circle cx="200" cy="200" r="1.2" opacity="0.4"/>
+  </g>
+
+  <!-- distant hill -->
+  <g fill="#0d1024" opacity="0.9">
+    <path d="M0 780 Q200 720 400 780 T800 760 L800 1600 L0 1600 Z"/>
+  </g>
+
+  <!-- olive tree, left -->
+  <g fill="#070815">
+    <path d="M120 1180 Q110 1000 150 880 Q170 830 140 760" stroke="#070815" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <path d="M150 880 Q90 830 60 760" stroke="#070815" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M150 900 Q210 850 250 800" stroke="#070815" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="100" cy="740" rx="110" ry="80"/>
+    <ellipse cx="200" cy="770" rx="90" ry="65"/>
+    <ellipse cx="60" cy="800" rx="80" ry="60"/>
+  </g>
+
+  <!-- olive tree, right -->
+  <g fill="#070815">
+    <path d="M690 1220 Q705 1020 665 900 Q645 840 675 770" stroke="#070815" stroke-width="15" fill="none" stroke-linecap="round"/>
+    <path d="M665 900 Q730 850 760 790" stroke="#070815" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M665 920 Q600 880 555 830" stroke="#070815" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="720" cy="750" rx="115" ry="85"/>
+    <ellipse cx="610" cy="790" rx="90" ry="65"/>
+    <ellipse cx="770" cy="820" rx="75" ry="55"/>
+  </g>
+
+  <!-- garden ground -->
+  <g fill="#080a18">
+    <path d="M0 1280 Q200 1230 400 1280 T800 1260 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#050612">
+    <path d="M0 1420 Q220 1370 440 1420 T800 1400 L800 1600 L0 1600 Z"/>
+  </g>
+
+  <!-- rock beside the praying figure -->
+  <g fill="#050612">
+    <ellipse cx="560" cy="1330" rx="90" ry="46"/>
+  </g>
+
+  <!-- kneeling figure, praying, facing the rock/moon -->
+  <g fill="#04050d">
+    <!-- head, bowed slightly -->
+    <circle cx="418" cy="1188" r="26"/>
+    <!-- robe body, kneeling silhouette -->
+    <path d="M370 1210
+             Q368 1240 378 1270
+             L372 1340
+             Q372 1370 400 1380
+             L470 1380
+             Q485 1370 480 1345
+             L468 1270
+             Q478 1235 462 1208
+             Q440 1192 418 1194
+             Q392 1194 370 1210 Z"/>
+    <!-- arm reaching toward the rock, hands clasped in prayer -->
+    <path d="M462 1230 Q500 1250 525 1290 Q535 1305 520 1315 Q505 1320 495 1305 Q472 1270 448 1248 Z"/>
+    <ellipse cx="520" cy="1308" rx="14" ry="10"/>
+  </g>
+
+  <!-- faint sleeping disciples in the distance -->
+  <g fill="#0a0c1c" opacity="0.85">
+    <ellipse cx="150" cy="1470" rx="55" ry="22"/>
+    <circle cx="95" cy="1462" r="16"/>
+    <ellipse cx="260" cy="1490" rx="50" ry="20"/>
+    <circle cx="315" cy="1483" r="15"/>
+  </g>
+</svg>

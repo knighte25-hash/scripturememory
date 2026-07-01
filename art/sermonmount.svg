@@ -1,0 +1,38 @@
+<svg viewBox="0 0 800 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfe6f0"/>
+      <stop offset="35%" stop-color="#f3cf9a"/>
+      <stop offset="65%" stop-color="#c98a6b"/>
+      <stop offset="100%" stop-color="#4a3a3f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1600" fill="url(#g)"/>
+  <circle cx="400" cy="300" r="80" fill="#fff6e0" opacity="0.7"/>
+  <g fill="#4a3a3f" opacity="0.85">
+    <path d="M0 700 L260 420 L420 620 L560 380 L800 700 L800 1000 L0 1000 Z"/>
+  </g>
+  <g fill="#3a2c30">
+    <path d="M0 900 Q200 830 400 900 T800 880 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#241a1d">
+    <path d="M0 1080 Q220 1010 440 1080 T800 1060 L800 1600 L0 1600 Z"/>
+  </g>
+  <!-- teacher figure -->
+  <g fill="#160f11">
+    <circle cx="400" cy="920" r="16"/>
+    <path d="M382 940 L382 1030 L418 1030 L418 940 Z"/>
+  </g>
+  <!-- seated crowd dots -->
+  <g fill="#160f11" opacity="0.85">
+    <ellipse cx="300" cy="1120" rx="14" ry="10"/>
+    <ellipse cx="340" cy="1130" rx="14" ry="10"/>
+    <ellipse cx="380" cy="1135" rx="14" ry="10"/>
+    <ellipse cx="440" cy="1130" rx="14" ry="10"/>
+    <ellipse cx="480" cy="1122" rx="14" ry="10"/>
+    <ellipse cx="260" cy="1150" rx="14" ry="10"/>
+    <ellipse cx="520" cy="1150" rx="14" ry="10"/>
+    <ellipse cx="220" cy="1175" rx="14" ry="10"/>
+    <ellipse cx="560" cy="1175" rx="14" ry="10"/>
+  </g>
+</svg>

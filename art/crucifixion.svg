@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 1600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5c2430"/>
+      <stop offset="35%" stop-color="#3d1c33"/>
+      <stop offset="70%" stop-color="#241830"/>
+      <stop offset="100%" stop-color="#0e0a18"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1600" fill="url(#g)"/>
+  <circle cx="400" cy="520" r="110" fill="#c65a3f" opacity="0.55"/>
+  <circle cx="400" cy="520" r="160" fill="#c65a3f" opacity="0.25"/>
+  <g fill="#0e0a16" opacity="0.9">
+    <path d="M0 1050 Q200 970 400 1050 T800 1030 L800 1600 L0 1600 Z"/>
+  </g>
+  <g fill="#08050d">
+    <path d="M0 1200 Q220 1130 440 1200 T800 1180 L800 1600 L0 1600 Z"/>
+  </g>
+  <!-- three crosses -->
+  <g fill="#050308">
+    <rect x="392" y="560" width="16" height="330"/>
+    <rect x="330" y="650" width="150" height="16"/>
+    <rect x="230" y="700" width="12" height="230"/>
+    <rect x="195" y="760" width="82" height="12"/>
+    <rect x="560" y="700" width="12" height="230"/>
+    <rect x="525" y="760" width="82" height="12"/>
+  </g>
+</svg>
